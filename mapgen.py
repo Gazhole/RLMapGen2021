@@ -1,24 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-AGNOSTIC DUNGEON GENERATOR
-
-A configurable Python dungeon generator to produce maps for a variety of
-purposes / games.
-
-Using input criteria will generate a dungeon output in a basic array format
-which can decoded by the game engine to drive :
-    
-    - Roguelike or other RPG games.
-    - Retro First Person Shooters
-    - Tabletop Gaming
-    etc
-    
-'''
-
-
-
-
 
 '''
 TO DO
@@ -165,21 +146,6 @@ def map_gen(width,height,num_areas=False,room_max_size=False):
     
     return m
 
-'''
-ALGORITHM:
-  
-
-9 - Once all rooms are created, look for any rooms which are separated by 1 wall
-10- Knock through these walls to join rooms together (makes loops)
-
-
-
-
-15 - Place the stairs (make sure they're as far away in steps as possible)
-  
-
-
-'''
 
     
 
