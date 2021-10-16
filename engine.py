@@ -45,6 +45,8 @@ def main():
     SPR_ENTRANCE = pygame.image.load('Sprites\\stairs_up.png').convert_alpha()
 
 
+#
+    
     sprites = {"player": SPR_PLAYER, 
                "floor_vis": [SPR_FLOOR1_VIS,SPR_FLOOR2_VIS,SPR_FLOOR3_VIS], 
                "door_vis": [SPR_DOOR1_VIS,SPR_DOOR2_VIS,SPR_DOOR3_VIS],
